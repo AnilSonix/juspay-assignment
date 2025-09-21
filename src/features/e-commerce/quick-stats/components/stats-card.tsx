@@ -30,7 +30,7 @@ export default function StatsCard({ stat }: Props) {
   return (
     <div
       className={cn([
-        "flex flex-col gap-4 p-6 bg-blue-100 rounded-xl basis-20 flex-1",
+        "flex flex-col gap-4 p-6 bg-blue-100 rounded-xl basis-20 flex-1 justify-center",
         cardClassName,
       ])}
     >

@@ -29,7 +29,7 @@ export default function QuickStats() {
   }
 
   return (
-    <div className="flex gap-6 flex-wrap w-full h-full">
+    <div className="flex gap-6 flex-wrap w-full h-full ">
       {query.data.map((s) => (
         <StatsCard stat={s} key={s.title} />
       ))}
