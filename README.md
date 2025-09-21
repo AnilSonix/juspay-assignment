@@ -26,7 +26,13 @@ pnpm dev
 
 ## This is also a PWA ,so you can install on capable browsers
 
-Click on **add to home screen** or i**nstall when browser prompts**
+Click on **add to home screen** or **install when browser prompts**
+
+<img src="https://raw.githubusercontent.com/AnilSonix/juspay-assignment/refs/heads/main/public/screenshots/s1.png" />
+<img src="https://raw.githubusercontent.com/AnilSonix/juspay-assignment/refs/heads/main/public/screenshots/s2.png" />
+<img src="https://raw.githubusercontent.com/AnilSonix/juspay-assignment/refs/heads/main/public/screenshots/s3.png" />
+<img src="https://raw.githubusercontent.com/AnilSonix/juspay-assignment/refs/heads/main/public/screenshots/s4.png" />
+<img src="https://raw.githubusercontent.com/AnilSonix/juspay-assignment/refs/heads/main/public/screenshots/s5.png" />
 
 ## Design decisions
 
