@@ -11,6 +11,7 @@ This SPA uses
 7. **lucide-icons** - for icons
 8. **react-router** - for routing
 9. **fakerjs** - for generating dummy data
+10. **zustand** - for some global state mgmt
 
 You may view live at [https://jp-poc.netlifya.app](https://jp-poc.netlify.app)
 
