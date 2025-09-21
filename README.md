@@ -10,6 +10,7 @@ This SPA uses
 6. **recharts** - for charts plotting
 7. **lucide-icons** - for icons
 8. **react-router** - for routing
+9. **fakerjs** - for generating dummy data
 
 You may view live at [https://jp-poc.netlifya.app](https://jp-poc.netlify.app)
 
