@@ -13,7 +13,7 @@ This SPA uses
 9. **fakerjs** - for generating dummy data
 10. **zustand** - for some global state mgmt
 
-You may view live at [https://jp-poc.netlifya.app](https://jp-poc.netlify.app)
+You may view live at [https://jp-poc.netlify.app](https://jp-poc.netlify.app)
 
 ## To run locally , simply install and run dev server
 
