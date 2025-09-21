@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "pwa:icons": "npx pwa-asset-generator public/app.png public/icons --padding 0px --opaque false"
+    "pwa:icons": "npx pwa-asset-generator public/logo.svg public/icons --padding 0px --opaque false"
   },
   "dependencies": {
     "@mantine/hooks": "^8.3.1",
@@ -40,7 +40,6 @@
     "tailwindcss": "^4.1.13",
     "ts-pattern": "^5.8.0",
     "vaul": "^1.1.2",
-    "vite-plugin-pwa": "^1.0.3",
     "zod": "^4.1.11",
     "zustand": "^5.0.8"
   },
