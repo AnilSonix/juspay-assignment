@@ -26,3 +26,44 @@ pnpm dev
 ## This is also a PWA ,so you can install on capable browsers
 
 Click on **add to home screen** or i**nstall when browser prompts**
+
+## Design decisions
+
+### Folder structures
+
+```
+📂module
+    📂feature
+        📂components
+        📂hooks
+        📂utils
+    📂pages
+
+📂shared // for common project specific
+    📂components
+    📂hooks
+    📂utils
+
+📂components // for shadcn and related registry components
+
+```
+
+For example
+
+```cmd
+📂notications
+    📂notifications-list
+        📂components
+            notifications-list.tsx // presentational component
+            notifications-list-panel // fetches data and pass to notifications-list to render
+            notifications-list-sheet.tsx // just render panel in sheet
+        📂hooks
+            use-notifications.ts  // tanstack-query to fetch api
+        📂utils
+            get-notifications.ts // actual api call with validation
+    📂pages
+        notification-page.tsx // a dedicated page to show all notification etc
+
+```
+
+Reason : one modules can have lots of pages
