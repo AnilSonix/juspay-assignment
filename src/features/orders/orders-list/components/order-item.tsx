@@ -45,7 +45,7 @@ export default function OrderItem({ order }: OrderItemProps) {
         </div>
       </TableCell>
       <TableCell>
-        <OrderBadge status="rejected" />
+        <OrderBadge status={order.status} />
       </TableCell>
       <TableCell>
         <OrderMenu orderId={order.id} />
