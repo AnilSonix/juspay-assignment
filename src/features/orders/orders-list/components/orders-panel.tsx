@@ -13,7 +13,7 @@ export default function OrdersPanel() {
     return (
       <AppCard className="w-full h-full">
         <LoadingScreen
-          title="Getting quick stats"
+          title="Getting orders"
           subtitle="Just a sec"
           className="h-full self-stretch"
         />
